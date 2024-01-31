@@ -1,22 +1,23 @@
-﻿Imports System.Diagnostics
+Imports System.Diagnostics
 Imports System.Windows
 Imports DevExpress.Xpf.Reports.UserDesigner
 
 Namespace T461334
+
     ''' <summary>
     ''' Interaction logic for MainWindow.xaml
     ''' </summary>
-    Partial Public Class MainWindow
+    Public Partial Class MainWindow
         Inherits Window
 
         Public Sub New()
-            InitializeComponent()
-            designer.Commands = New CustomDesignerCommands()
-            AddHandler Loaded, AddressOf MainWindow_Loaded
+            Me.InitializeComponent()
+            Me.designer.Commands = New CustomDesignerCommands()
+            AddHandler Loaded, AddressOf Me.MainWindow_Loaded
         End Sub
 
         Private Sub MainWindow_Loaded(ByVal sender As Object, ByVal e As RoutedEventArgs)
-            designer.OpenDocument(New SampleReport())
+            Me.designer.OpenDocument(New SampleReport())
         End Sub
     End Class
 
@@ -24,7 +25,7 @@ Namespace T461334
         Inherits ReportDesignerCommands
 
         Protected Overrides Sub SaveDocumentAs()
-            Debug.WriteLine("CustomDesignerCommands.SaveDocumentAs")
+            Call Debug.WriteLine("CustomDesignerCommands.SaveDocumentAs")
             MyBase.SaveDocumentAs()
         End Sub
     End Class
