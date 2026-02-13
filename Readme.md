@@ -28,7 +28,7 @@ This example shows how to create a custom command provider that inherits from th
 * [Reporting for WPF - Customize a Control's Smart Tag](https://github.com/DevExpress-Examples/reporting-wpf-report-designer-customize-controls-smart-tag)
 * [WPF Report Designer - How to hide properties of reports and their elements](https://github.com/DevExpress-Examples/wpf-reporting-hide-properties-in-designer)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-wpf-designer-commands&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-wpf-designer-commands&~~~was_helpful=no)
 
